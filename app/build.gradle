@@ -17,12 +17,12 @@
 apply plugin: 'com.android.application'
 
 def twaManifest = [
-    applicationId: 'org.chromium.twa.svgomg',
-    hostName: 'svgomg.firebaseapp.com', // The domain being opened in the TWA.
+    applicationId: 'org.lukasDev.twa.edenoaidai',
+    hostName: 'giesmynas.adventistai.lt', // The domain being opened in the TWA.
     launchUrl: '/', // The start path for the TWA. Must be relative to the domain.
-    name: 'SVGOMG TWA', // The name shown on the Android Launcher.
-    themeColor: '#303F9F', // The color used for the status bar.
-    backgroundColor: '#bababa' // The color used for the splash screen background.
+    name: 'Edeno Aidai', // The name shown on the Android Launcher.
+    themeColor: '#d9b26f', // The color used for the status bar.
+    backgroundColor: '#ffffff' // The color used for the splash screen background.
 ]
 
 android {
@@ -31,8 +31,8 @@ android {
         applicationId twaManifest.applicationId
         minSdkVersion 16
         targetSdkVersion 28
-        versionCode 3
-        versionName "1.1.1"
+        versionCode 5
+        versionName "1.0.1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
         // The name for the application on the Android Launcher
